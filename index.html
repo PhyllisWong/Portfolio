@@ -5,32 +5,29 @@
 		<title>PhyllisWong Portfolio</title>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" href="./styles.css">
-		<link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400|Roboto:100,200,300,400" rel="stylesheet">
-
 	</head>
 
 	<body>
+  <header>
+    <h1 class="logo">Logo</h1>
 
-	<div class="nav-bar">
-		<nav>
-      <div class="nav-links">
-			<ul style="list-style-type:none" class="nav-links">
-				<li class="nav-btn logo"><img height="50px" src="">Home</li>
-				<li id="sub-btn" class="nav-btn">Biography</li>
-        <li id="sub-btn" class="nav-btn">Projects</li>
-        <li id="sub-btn" class="nav-btn">Resume</li>
-        <li id="sub-btn" class="nav-btn">Blog</li>
+    <!--Used class for CSS and id for interactivity-->
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+    <nav>
+      <ul>
+        <li><a href="a">Home</a></li>
+        <li><a href="b">About</a></li>
+        <li><a href="c">Projects</a></li>
+        <li><a href="d">Blog</a></li>
+        <li><a href="e">Contact</a></li>
       </ul>
-
-        <ul>
-          <li class="nav-btn right">
-            <button class="call-to-action-btn">Contact</button>
-          </li>
-        </ul>
-
-      </div>
-		</nav>
-	</div>
+    </nav>
+    <!--for key word will not look for class, needs an id-->
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span></span>
+    </label>
+  </header>
 
   <div class="hero">
     <div class="hero-overlay-text">
