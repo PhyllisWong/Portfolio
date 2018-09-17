@@ -141,7 +141,7 @@ nav a:hover {
 	/* Use CSS grid */
 	header {
 		display: grid;
-		grid-template-columns: 1fr auto minmax(600px, 4fr) 4rem;
+		grid-template-columns: 4rem auto minmax(500px, 4fr) 4rem;
 	}
 
 	.logo {
@@ -235,6 +235,44 @@ HERO
 BIOGRAPHY
 *******************/
 
+section {
+	padding: 4rem;
+}
+
 .bio {
 	display: flex;
+
 }
+
+/*******************
+		Footer
+*******************/
+
+.footer-container {
+	background: var(--background);
+	position: relative;
+	grid-column: 1 / 4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	bottom: 0;
+	padding: 2rem;
+}
+
+footer ul {
+	display: flex;
+	justify-content: space-around;
+}
+
+footer li {
+	list-style-type: none;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+	padding: 2rem;
+}
+
+
