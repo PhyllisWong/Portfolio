@@ -33,8 +33,6 @@ h1 {
 NAVBAR
 ***********/
 
-/* Navigation styles start here */
-
 header {
 	background: var(--background);
 	text-align: center;
@@ -122,7 +120,7 @@ nav a:hover {
 	color: white;
 }
 
-/* the "~" looks for any preceeding sibling
+/* the "~" looks for any preceding sibling
  it doesn't have to be immediately after */
 .nav-toggle:checked ~ nav {
 	transform: scale(1,1);
@@ -243,7 +241,6 @@ section {
 
 .bio {
 	display: flex;
-
 }
 
 /*******************
