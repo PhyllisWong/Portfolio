@@ -8,8 +8,9 @@
 	</head>
 
 	<body>
+  <div class="wrapper">
   <header>
-    <h1 class="logo">Logo</h1>
+    <h1 class="logo"><a href="#home">Logo</a></h1>
 
     <!--Used class for CSS and id for interactivity-->
     <input type="checkbox" id="nav-toggle" class="nav-toggle">
@@ -24,9 +25,9 @@
       </ul>
     </nav>
     <!--for key word will not look for class, needs an id-->
-    <div for="nav-toggle" class="nav-toggle-label">
+    <label for="nav-toggle" class="nav-toggle-label">
       <span></span>
-    </div>
+    </label>
   </header>
 
   <div class="hero" id="home">
@@ -36,30 +37,61 @@
   </div>
 
   <section id="about">
-    <h2>Biography</h2>
-    <h3>My name is Phyllis Wong. I am going to talk about myself here.</h3>
     <div class="bio">
-      <img src="">
+      <h1>Biography</h1>
+      <p>My name is Phyllis Wong. I am going to talk about myself here.</p>
 
-      <p>
-        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-        eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-        consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam
-        quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
-        nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse
-        quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu.
+      <div class="bio-section">
+        <img src="img/profile-img-placeholder.jpg">
 
-      </p>
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
+          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+          eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+          consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam
+          quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+          nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse
+          quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu.
+
+        </p>
+      </div>
     </div>
   </section>
 
-    <footer class="footer-container">
+    <!--<section class="projects-section">-->
+      <div class="projects" id="projects" >
+        <h1>Projects</h1>
+        <p>This is there I will show the projects I've done</p>
+      </div>
+
+    <!--</section>-->
+    <div class="push"></div>
+  </div>
+
+  <form>
+
+  </form>
+
+    <footer class="footer">
       <ul>
-        <li><a href="https://github.com/PhyllisWong">github</a></li>
-        <li><a href="https://www.linkedin.com/in/phyllis-wong-4baa8831/">linkedin</a></li>
-        <li><a href="https://medium.com/@wong.phyllism">medium</a></li>
+        <li class="footer-logo">
+          <a href="https://github.com/PhyllisWong">
+            <img src="img/githubLogo.png" alt="github">
+          </a>
+        </li>
+
+        <li class="footer-logo">
+          <a href="https://www.linkedin.com/in/phyllis-wong-4baa8831/">
+            <img src="img/linkinLogo.png" alt="linkedin">
+          </a>
+        </li>
+
+        <li class="footer-logo">
+          <a href="https://medium.com/@wong.phyllism">
+            <img src="img/mediumLogo.png" alt="medium">
+          </a>
+        </li>
       </ul>
     </footer>
 
